@@ -1,0 +1,65 @@
+:root {
+    --first-title-color: #2E2F42;
+    --second-title-color: #FFFFFF;
+    --first-background-color: #FFFFFF;
+    --first-text-color: #434455;
+    --second-text-color: #F4F4FD;
+    --first-btn-color: #ffffff;
+   --logo-color:#4D5AE5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.main-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5px;
+        letter-spacing: 0.02em;
+}
+
+/**-------------- HEADER------------------ */
+
+.header {
+ background-color: var(--first-background-color) ;   
+}
+
+.header-logo {
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+    color: var(--first-title-color);
+}
+
+.header-logo-web {
+    color: var(--logo-color)
+}
+
+.header-link {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+        letter-spacing: 0.02em;
+        color: var(--first-title-color)
+}
+
+.header-adress-link {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+        letter-spacing: 0.02em;
+        color: var(--first-text-color)
+}
+
+/**-------------- HERO------------------ */
