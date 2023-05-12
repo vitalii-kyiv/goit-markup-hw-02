@@ -1,91 +1,139 @@
 :root {
-    --first-title-color: #2E2F42;
-    --second-title-color: #FFFFFF;
-    --first-background-color: #FFFFFF;
-    --second-background-color: #2E2F42;
-    --first-text-color: #434455;
-    --second-text-color: #F4F4FD;
-    --first-btn-color: #ffffff;
-   --logo-color:#4D5AE5;
+  --first-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --first-background-color: #ffffff;
+  --second-background-color: #2e2f42;
+  --first-text-color: #434455;
+  --second-text-color: #f4f4fd;
+  --first-btn-color: #ffffff;
+  --logo-color: #4d5ae5;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: var(--first-background-color);
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--first-background-color);
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .main-text {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5px;
-        letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
 }
 
 /**-------------- HEADER------------------ */
 
 .header {
- background-color: var(--first-background-color) ;   
+  background-color: var(--first-background-color);
 }
 
 .header-logo {
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17px;
-    color: var(--first-title-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  color: var(--first-title-color);
 }
 
 .header-logo-web {
-    color: var(--logo-color);
+  color: var(--logo-color);
 }
 
 .header-link {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5px;
-        letter-spacing: 0.02em;
-        color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
 }
 
 .header-adress-link {
-font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5px;
-        letter-spacing: 0.02em;
-        color: var(--first-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
 }
 
 /**-------------- HERO------------------ */
 .hero {
-background-color: var(--second-background-color);
+  background-color: var(--second-background-color);
 }
 
 .hero-title {
-    font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: var(--second-title-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
 }
 
 .hero-btn {
-    font-family: inherit;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1,5px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-            color: var(--first-btn-color);
-            background-color: #4D5AE5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--first-btn-color);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/**-------------- SOLUTIONS------------------ */
+.solutions-title {
+}
+
+.solutions-list {
+}
+
+.solitions-item {
+}
+
+.solutions-second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+
+.solutions-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+
+/**-------------- ABOUT------------------ */
+.about {
+}
+.about-title {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.11x;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+}
+.about-list {
+}
+.aboust-item {
 }
