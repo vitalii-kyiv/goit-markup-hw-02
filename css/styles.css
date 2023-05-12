@@ -2,6 +2,7 @@
     --first-title-color: #2E2F42;
     --second-title-color: #FFFFFF;
     --first-background-color: #FFFFFF;
+    --second-background-color: #2E2F42;
     --first-text-color: #434455;
     --second-text-color: #F4F4FD;
     --first-btn-color: #ffffff;
@@ -10,6 +11,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--first-background-color);
 }
 
 .link {
@@ -43,7 +46,7 @@ font-family: 'Raleway';
 }
 
 .header-logo-web {
-    color: var(--logo-color)
+    color: var(--logo-color);
 }
 
 .header-link {
@@ -51,7 +54,7 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.5px;
         letter-spacing: 0.02em;
-        color: var(--first-title-color)
+        color: var(--first-title-color);
 }
 
 .header-adress-link {
@@ -59,7 +62,30 @@ font-weight: 400;
     font-size: 16px;
     line-height: 1.5px;
         letter-spacing: 0.02em;
-        color: var(--first-text-color)
+        color: var(--first-text-color);
 }
 
 /**-------------- HERO------------------ */
+.hero {
+background-color: var(--second-background-color);
+}
+
+.hero-title {
+    font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--second-title-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+            color: var(--first-btn-color);
+            background-color: #4D5AE5;
+}
