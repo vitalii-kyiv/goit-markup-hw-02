@@ -29,7 +29,23 @@ body {
 .main-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.second-title {
+  font-family: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.third-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -121,11 +137,7 @@ body {
 }
 
 .solutions-second-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--first-title-color);
+    color: var(--first-title-color);
 }
 
 .solutions-text {
@@ -136,13 +148,7 @@ body {
 .about {
 }
 .about-title {
-  font-family: inherit;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--first-title-color);
+    color: var(--first-title-color);
 }
 .about-list {
 }
@@ -154,12 +160,7 @@ body {
   background-color: var(--third-background-color);
 }
 .team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--first-title-color);
+    color: var(--first-title-color);
 }
 .team-list {
 }
@@ -250,9 +251,5 @@ body {
   color: var(--first-title-color);
 }
 .examples-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
+    color: var(--first-text-color);
 }
