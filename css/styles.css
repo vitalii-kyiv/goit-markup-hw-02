@@ -78,17 +78,20 @@ body {
 
   color: var(--first-title-color);
 }
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
 
-.header-adress-list {
+.header-adress {
   font-style: normal;
 }
 
+.header-adress-list {}
+
 .header-adress-link {
-    color: var(--first-text-color);
+  color: var(--first-text-color);
 }
 
 .header-adress-link:hover,
@@ -121,68 +124,68 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
 
 /**MAIN-------------- SOLUTIONS------------------ */
-.solutions-title {
-}
+.solutions-title {}
 
-.solutions-list {
-}
+.solutions-list {}
 
-.solitions-item {
-}
+.solitions-item {}
 
 .solutions-second-title {
-    color: var(--first-title-color);
+  color: var(--first-title-color);
 }
 
 .solutions-text {
-    color: var(--first-text-color);
+  color: var(--first-text-color);
 }
 
 /**MAIN-------------- ABOUT------------------ */
-.about {
-}
+.about {}
+
 .about-title {
-    color: var(--first-title-color);
+  color: var(--first-title-color);
 }
-.about-list {
-}
-.about-item {
-}
+
+.about-list {}
+
+.about-item {}
 
 /**MAIN-------------- TEAM------------------ */
 .team {
   background-color: var(--third-background-color);
 }
+
 .team-title {
-    color: var(--first-title-color);
+  color: var(--first-title-color);
 }
-.team-list {
-}
-.list {
-}
+
+.team-list {}
+
+.list {}
+
 .team-item {
   background-color: var(--first-background-color);
 }
+
 .team-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--first-title-color);
 }
+
 .team-item-text {
-   color: var(--first-text-color);
+  color: var(--first-text-color);
 }
+
 /**-------------- FOOTER------------------ */
 .footer {
   background-color: var(--second-background-color);
 }
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -193,26 +196,28 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
 }
-.link {
-}
+
+.link {}
+
 .footer-logo-web {
   color: var(--second-text-color);
 }
+
 .footer-text {
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
 
 /**PORTFOLIO-------------- MAIN------------------ */
-.filter {
-}
-.filter-title {
-}
-.filter-list {
-}
-.list {
-}
-.filter-item {
-}
+.filter {}
+
+.filter-title {}
+
+.filter-list {}
+
+.list {}
+
+.filter-item {}
+
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -233,23 +238,20 @@ body {
   background-color: var(--second-btn-color);
 }
 
-.examples-list {
-}
-.examples-item {
-}
-.examples-link {
-}
-.link {
-}
-.examples-image {
-}
+.examples-list {}
+
+.examples-item {}
+
+.examples-link {}
+
+.link {}
+
+.examples-image {}
+
 .examples-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--first-title-color);
 }
+
 .examples-text {
-    color: var(--first-text-color);
+  color: var(--first-text-color);
 }
