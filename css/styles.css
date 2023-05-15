@@ -3,10 +3,12 @@
   --second-title-color: #ffffff;
   --first-background-color: #ffffff;
   --second-background-color: #2e2f42;
+  --third-background-color: #f4f4fd;
   --first-text-color: #434455;
   --second-text-color: #f4f4fd;
-  --third-background-color: #f4f4fd;
+  --third-text-color: #4d5ae5;
   --first-btn-color: #ffffff;
+  --second-btn-color: #404bbf;
   --logo-color: #4d5ae5;
 }
 
@@ -82,7 +84,7 @@ body {
   color: #404bbf;
 }
 
-/**-------------- HERO------------------ */
+/**MAIN-------------- HERO------------------ */
 .hero {
   background-color: var(--second-background-color);
 }
@@ -112,7 +114,7 @@ body {
   background-color: #404bbf;
 }
 
-/**-------------- SOLUTIONS------------------ */
+/**MAIN-------------- SOLUTIONS------------------ */
 .solutions-title {
 }
 
@@ -138,7 +140,7 @@ body {
   color: var(--first-text-color);
 }
 
-/**-------------- ABOUT------------------ */
+/**MAIN-------------- ABOUT------------------ */
 .about {
 }
 .about-title {
@@ -155,7 +157,7 @@ body {
 .about-item {
 }
 
-/**-------------- TEAM------------------ */
+/**MAIN-------------- TEAM------------------ */
 .team {
   background-color: var(--third-background-color);
 }
@@ -213,4 +215,58 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+
+/**PORTFOLIO-------------- MAIN------------------ */
+.filter {
+}
+.filter-title {
+}
+.filter-list {
+}
+.list {
+}
+.filter-item {
+}
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--third-text-color);
+  background-color: var(--second-text-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--second-title-color);
+  background-color: var(--second-btn-color);
+}
+
+.examples-list {
+}
+.examples-item {
+}
+.examples-link {
+}
+.link {
+}
+.examples-image {
+}
+.examples-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.examples-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
 }
