@@ -1,0 +1,108 @@
+:root {
+  --white-background: #ffffff;
+  --light-background: #f4f4fd;
+  --secondary-light-background: #e7e9fc;
+  --hero-background: #2e2f42;
+  --modal-background: #fcfcfc;
+  --modal-overlay: #2e2f42;
+  --main-text: #434455;
+  --help-text: #8e8f99;
+  --accent: #4d5ae5;
+  --active-state: #404bbf;
+  --shadows: #2e2f42;
+  --success-state: #31d0aa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text);
+  background-color: var(--white-background);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+/* <!-- !!!HEADER!!! ---------------------------------------------------------------------------> */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-logo-element {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+}
+/* <!-- !!!HERO!!! ---------------------------------------------------------------------------> */
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/* <!-- !!!ADVANTAGES!!! ---------------------------------------------------------------------------> */
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-item-title {
+}
+.advantages-item-text {
+}
+/* <!-- !!!ABOUT!!! ---------------------------------------------------------------------------> */
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+.about-list-item {
+}
+.about-list-image {
+}
+/* <!-- !!!TEAM!!! ---------------------------------------------------------------------------> */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-image {
+}
+.team-list-title {
+}
+.team-list-text {
+}
+/* <!-- !!!FOOTER!!! ---------------------------------------------------------------------------> */
+.footer {
+}
+.footer-logo {
+}
+.footer-logo-element {
+}
+.footer-text {
+}
+
+/* <!-- !!!PORTFOLIO!! ---------------------------------------------------------------------------> */
