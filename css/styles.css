@@ -22,11 +22,36 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
-  font-style: normal;
 }
 
 .list {
   list-style: none;
+}
+
+.main-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.btn-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.first-title {
+  font-size: 36px;
+
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.secondary-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 /* <!-- !!!HEADER!!! ---------------------------------------------------------------------------> */
@@ -58,35 +83,38 @@ body {
 }
 .header-list-link {
   color: var(--shadows);
-
+  font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  line-height: var(--main-line-height);
+  letter-spacing: var(--main-letter-spacing);
 }
+
+.header-address {
+}
+
 .header-address-list {
 }
 .header-address-item {
 }
 .header-address-link {
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  font-style: normal;
 }
 /* <!-- !!!HERO!!! ---------------------------------------------------------------------------> */
 .hero {
-  color: var(--hero-background);
+  background-color: var(--hero-background);
 }
 .hero-title {
   font-size: 56px;
-
   line-height: 1.07;
   letter-spacing: 1.12px;
+  color: var(--white-background);
 }
 .hero-btn {
   background-color: var(--accent);
   color: var(--white-background);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: var(--main-line-height);
   letter-spacing: 0.64px;
 }
 /* <!-- !!!ADVANTAGES!!! ---------------------------------------------------------------------------> */
@@ -115,6 +143,7 @@ body {
 }
 /* <!-- !!!TEAM!!! ---------------------------------------------------------------------------> */
 .team {
+  background-color: var(--light-background);
 }
 .team-title {
 }
@@ -130,12 +159,50 @@ body {
 }
 /* <!-- !!!FOOTER!!! ---------------------------------------------------------------------------> */
 .footer {
+  background-color: var(--hero-background);
 }
 .footer-logo {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 .footer-logo-element {
+  color: var(--light-background);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 .footer-text {
+  color: var(--light-background);
 }
 
 /* <!-- !!!PORTFOLIO!! ---------------------------------------------------------------------------> */
+.examples {
+}
+.examples-title {
+}
+.examples-filter-list {
+}
+.examples-filter-item {
+}
+.examples-filter-btn {
+}
+.examples-list {
+}
+.examples-list-item {
+}
+.examples-list-link {
+}
+.examples-list-image {
+}
+.examples-list-title {
+}
+.exampes-list-text {
+}
