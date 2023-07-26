@@ -22,6 +22,7 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
 }
 
 .list {
@@ -34,27 +35,59 @@ body {
 .header-navigation {
 }
 .header-logo {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 .header-logo-element {
+  color: var(--shadows);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 .header-list {
 }
 .header-list-item {
 }
 .header-list-link {
+  color: var(--shadows);
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .header-address-list {
 }
 .header-address-item {
 }
 .header-address-link {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 /* <!-- !!!HERO!!! ---------------------------------------------------------------------------> */
 .hero {
+  color: var(--hero-background);
 }
 .hero-title {
+  font-size: 56px;
+
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 .hero-btn {
+  background-color: var(--accent);
+  color: var(--white-background);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 /* <!-- !!!ADVANTAGES!!! ---------------------------------------------------------------------------> */
 .advantages {
