@@ -90,6 +90,11 @@ body {
   letter-spacing: 0.32px;
 }
 
+.header-list-link:hover,
+.header-list-link:focus {
+  color: var(--active-state);
+}
+
 .header-address {
   font-style: normal;
 }
@@ -100,6 +105,12 @@ body {
 }
 .header-address-link {
 }
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--active-state);
+}
+
 /* <!-- !!!HERO!!! ---------------------------------------------------------------------------> */
 .hero {
   background-color: var(--hero-background);
@@ -114,10 +125,16 @@ body {
 .hero-btn {
   background-color: var(--accent);
   color: var(--white-background);
-  font-size: 16px;
+  /* font-size: 16px;
   font-weight: 500;
+  line-height: 1.5; */
   line-height: var(--main-line-height);
   letter-spacing: 0.64px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-state);
 }
 /* <!-- !!!ADVANTAGES!!! ---------------------------------------------------------------------------> */
 .advantages {
