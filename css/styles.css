@@ -37,6 +37,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .first-title {
@@ -85,11 +86,12 @@ body {
   color: var(--shadows);
   font-style: normal;
   font-weight: 500;
-  line-height: var(--main-line-height);
-  letter-spacing: var(--main-letter-spacing);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -97,7 +99,6 @@ body {
 .header-address-item {
 }
 .header-address-link {
-  font-style: normal;
 }
 /* <!-- !!!HERO!!! ---------------------------------------------------------------------------> */
 .hero {
@@ -108,6 +109,7 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--white-background);
+  text-align: center;
 }
 .hero-btn {
   background-color: var(--accent);
@@ -121,6 +123,7 @@ body {
 .advantages {
 }
 .advantages-title {
+  color: var(--shadows);
 }
 .advantages-list {
 }
@@ -134,6 +137,8 @@ body {
 .about {
 }
 .about-title {
+  text-align: center;
+  color: var(--shadows);
 }
 .about-list {
 }
@@ -146,14 +151,18 @@ body {
   background-color: var(--light-background);
 }
 .team-title {
+  text-align: center;
+  color: var(--shadows);
 }
 .team-list {
 }
 .team-list-item {
+  background-color: var(--white-background);
 }
 .team-list-image {
 }
 .team-list-title {
+  color: var(--shadows);
 }
 .team-list-text {
 }
@@ -193,6 +202,9 @@ body {
 .examples-filter-item {
 }
 .examples-filter-btn {
+  color: var(--accent);
+  background-color: var(--light-background);
+  cursor: pointer;
 }
 .examples-list {
 }
@@ -203,6 +215,7 @@ body {
 .examples-list-image {
 }
 .examples-list-title {
+  font-variant: var(--shadows);
 }
 .exampes-list-text {
 }
