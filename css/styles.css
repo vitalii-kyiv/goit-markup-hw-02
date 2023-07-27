@@ -130,6 +130,7 @@ body {
   line-height: 1.5; */
   line-height: var(--main-line-height);
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
