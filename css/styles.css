@@ -125,11 +125,11 @@ body {
 .hero-btn {
   background-color: var(--accent);
   color: var(--white-background);
-  /* font-size: 16px;
+  /* line-height: 1.5; 
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; */
-  line-height: var(--main-line-height);
-  letter-spacing: 0.64px;
+    line-height: var(--main-line-height);
+  letter-spacing: 0.64px; */
   cursor: pointer;
 }
 
@@ -224,6 +224,12 @@ body {
   background-color: var(--light-background);
   cursor: pointer;
 }
+
+.examples-filter-btn:hover,
+.examples-filter-btn:focus {
+  background-color: var(--active-state);
+  color: var(--white-background);
+}
 .examples-list {
 }
 .examples-list-item {
@@ -233,7 +239,7 @@ body {
 .examples-list-image {
 }
 .examples-list-title {
-  font-variant: var(--shadows);
+  color: var(--shadows);
 }
 .exampes-list-text {
 }
